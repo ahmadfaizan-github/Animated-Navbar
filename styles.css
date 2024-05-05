@@ -56,10 +56,17 @@ nav.active ul li {
 
 nav ul a {
     position: relative;
-    color: #000;
+    color: hsl(0, 0%, 40%);
     text-decoration: none;
     margin: 0 10px;
 }
+
+nav ul a:hover {
+    background-color: hsl(201, 100%, 95%);
+    border-radius: 2px;
+    color: hsl(0, 0%, 0%);
+}
+
 
 .icon {
     width: 30px;
